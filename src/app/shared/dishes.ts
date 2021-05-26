@@ -1,5 +1,4 @@
 import { Dish } from './dish';
-import { Comment } from '../shared/comment';
 
 export const DISHES: Dish[] = [
     {
