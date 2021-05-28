@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { MatDialogModule } from '@angular/material';
+import { MatProgressSpinnerModule } from '@angular/material';
 import { MatFormFieldModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material';
@@ -51,6 +52,7 @@ import { PromotionService } from './services/promotion.service';
     MatButtonModule,
     MatFormFieldModule,
     MatCheckboxModule,
+    MatProgressSpinnerModule,
     FormsModule,
     ReactiveFormsModule,
     MatSlideToggleModule,
