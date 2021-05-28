@@ -13,7 +13,10 @@ import { MatFormFieldModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material';
 import { MatCheckboxModule } from '@angular/material';
-import 'hammerjs';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule} from '@angular/material/slide-toggle';
+import 'hammerjs'; 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -49,6 +52,9 @@ import { PromotionService } from './services/promotion.service';
     MatFormFieldModule,
     MatCheckboxModule,
     FormsModule,
+    ReactiveFormsModule,
+    MatSlideToggleModule,
+    MatSelectModule,
     MatInputModule,
     FlexLayoutModule,
     BrowserAnimationsModule,
